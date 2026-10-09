@@ -71,3 +71,4 @@ class ProductTestCase(TestCase):
         self.assertEqual(response.status_code, 204)
         self.assertEqual(Product.objects.count(), 0)
         
+#modificacion leve para testear
